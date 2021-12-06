@@ -1,8 +1,8 @@
+from concurrent.futures import ThreadPoolExecutor
 import requests
 import time
 import os
 import threading
-from concurrent.futures import ThreadPoolExecutor
 
 
 def fetcher(params):
