@@ -38,3 +38,10 @@
 
 멀티스레딩은 동시성을 사용하여 IO bound 에서는 이점을 가질 수 있지만
 CPU bound에서는 GIL에 의해 원하는 결과를 얻을 수 없다.
+
+
+## 2022.05.08
+
+review
+- 동시성: concurrency의 '논리적' 개념, 작업에 대한 스위칭
+- 병렬성: parallel의 '물리적' 개념(at the same time)
